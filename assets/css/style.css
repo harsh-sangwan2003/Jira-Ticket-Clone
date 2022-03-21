@@ -1,0 +1,83 @@
+*{
+
+    box-sizing: border-box;
+}
+
+/* CSS Reset */
+body{
+
+    padding:0;
+    margin:0;
+}
+
+/* Toolbox Content */
+.toolbox-cont{
+
+    height: 5rem;
+    background-color: #34495e;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-cont>*{
+
+    margin-left: 4rem;
+    border-radius: 3px;
+}
+
+/* Toolbox Priority Content */
+.toolbox-priority-cont{
+
+    background-color: #ecf0f1;
+    height: 3.5rem;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.toolbox-priority-cont .color{
+
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.toolbox-priority-cont .lightpink{
+
+    background-color: lightpink;
+}
+
+.toolbox-priority-cont .lightgreen{
+
+    background-color: lightgreen;
+}
+
+.toolbox-priority-cont .lightblue{
+
+    background-color: lightblue;
+}
+
+.toolbox-priority-cont .black{
+
+    background-color: black;
+}
+
+/* Action Button Content */
+.action-btn-cont{
+
+    background-color: #2c3e50;
+    display: flex;
+    height: 3.5rem;
+    width: 7rem;
+
+}
+
+.action-btn-cont>*{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+    color:#d1d8e0;
+}
