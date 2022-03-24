@@ -91,7 +91,7 @@ body{
 
 .action-btn-cont>*:hover{
 
-    background-color: #333;
+    background-color: #485460;
 }
 
 /* Textarea Container */
@@ -105,6 +105,41 @@ body{
     font-size: 2rem;
     padding:2rem;
 
+}
+
+/* Tciket Container */
+.main-cont{
+
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+}
+
+.ticket-cont{
+
+    height: 12rem;
+    width: 15rem;
+    background-color: coral;
+}
+
+.ticket-color{
+
+    height: 1.5rem;
+    width: 100%;
+    background-color: black;
+}
+
+.ticket-id{
+
+    height: 2.5rem;
+    background-color: red;
+}
+
+.task-area{
+
+    height: calc(100% - 3rem);
+    padding:5px;
+    font-size: 1.5rem;
 }
 
 /* Model Container */
@@ -154,4 +189,9 @@ body{
 .black{
 
     background-color: black;
+}
+
+.active{
+
+    border: 5px solid #d1d8e0;
 }
