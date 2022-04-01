@@ -141,7 +141,9 @@ body {
   font-size: 1.5rem;
   padding: 5px;
   outline: none;
+  overflow-wrap: break-word;
 
+ 
 }
 
 .ticket-lock {
@@ -151,5 +153,4 @@ body {
   margin-top: 75px;
   font-size: 1.5rem;
   margin-right: 5px;
-
 }
